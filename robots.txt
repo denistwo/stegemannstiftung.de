@@ -1,0 +1,4 @@
+# Crawling ist erlaubt, damit Suchmaschinen die noindex-Anweisung in index.html lesen.
+# Ein Disallow hier wuerde das verhindern und die URL koennte trotzdem in Trefferlisten stehen.
+User-agent: *
+Allow: /
