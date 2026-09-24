@@ -45,3 +45,9 @@
             padding-bottom: .5rem; display: inline-block; }
   a.brand { display: block; margin-bottom: 2.5rem; }
   a.brand img { max-width: 18rem; }
+  nav.site { margin: -1.5rem 0 3rem; font-size: .875rem; letter-spacing: .08em; }
+  nav.site a { margin-right: 1.4rem; text-decoration: none; border-bottom: 1px solid transparent; }
+  nav.site a:hover { border-bottom-color: var(--green); }
+  nav.site a[aria-current="page"] { color: var(--green); border-bottom-color: var(--green); }
+  ul { margin: 0 0 1.6rem; padding-left: 1.2rem; max-width: 62ch; }
+  li { margin-bottom: .6rem; }
